@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ea9382c-f6e6-4f94-9e68-dcb97f21a2c0">
+  <producedTypes>
+    <selectionType typeId="0979b3f2-6955-4344-b77b-05be525f0220" valueTypeId="43b1fd0d-6fd2-45be-87f0-021816acbde8"/>
+    <listType typeId="aefad490-1e90-4044-87fd-cef4010e8855" valueTypeId="2a95c331-7cc0-407b-917e-e035410fde56"/>
+    <managerType typeId="200751cc-6983-4d8b-98bc-1cf7bbf4c414" valueTypeId="3dd371e6-3cec-4efa-98bf-bd78498d36ee"/>
+    <recordSetType typeId="a255abbd-8fa1-4168-89ab-ba6e9704368d" valueTypeId="7af82546-e636-4cc2-ba70-183898e21236"/>
+    <recordKeyType typeId="e848a32b-e4a4-4341-8e09-a7fdac1b2aa2" valueTypeId="0008cf9d-3eea-48fb-b358-12a84720d810"/>
+    <recordType typeId="eb8d406c-d330-4664-ac6e-e4c19e858695" valueTypeId="f3064602-8559-4b99-888f-41dad7c9f4e0"/>
+    <recordManagerType typeId="fd971fda-bf4d-4933-84ce-1dc6e8f9e3c2" valueTypeId="e6aeac92-2a44-49e9-a2bb-98a9020bca02"/>
+  </producedTypes>
+  <name>ПланП_ПланЗагрузкиРесурсов</name>
+  <synonym>
+    <key>ru</key>
+    <value>План загрузки ресурсов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c0f396b6-88bc-45bc-bcc8-ffeac1787ca4">
+    <name>Старт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Старт</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fb40d812-e043-4669-8ae7-585cb4ee8619">
+    <name>Финиш</name>
+    <synonym>
+      <key>ru</key>
+      <value>Финиш</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="707d273a-a3aa-4468-9789-e27631f4f6a2">
+    <name>ЗаказНаПроизводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ на производство</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказНаПроизводство</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="de328952-42e9-473d-b37e-a4c3bfc3b060">
+    <name>ЗаказПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ покупателя</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказПокупателя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="734965c6-5998-49fb-80c1-d12e70e91ff0">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1f98bc81-92e8-490f-b7de-8233cd151566">
+    <name>ЭтапПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этап производства</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЭтапыПроизводства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6e33838e-5ab6-4094-8a33-9c35e92d2e93">
+    <name>РесурсПредприятия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс предприятия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлючевыеРесурсы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcfae81a-350d-4879-ad10-65ca3d3cbf49">
+  <producedTypes>
+    <selectionType typeId="ed9190b8-a5cf-4521-b87a-ae7c9065c846" valueTypeId="627b4b34-594f-4e45-8bea-dc1ea7d494d8"/>
+    <listType typeId="247aae6e-e3cd-44ca-8c5c-0557d8a893ed" valueTypeId="ce6a6797-1bb4-42b2-8232-66080058d974"/>
+    <managerType typeId="bde80a63-964f-4293-b8d7-6bae4f8a8db5" valueTypeId="d822d8cd-476f-4123-b9aa-bd1d298f0da4"/>
+    <recordSetType typeId="25ed9807-1e9e-4b75-982c-eea39d47e0ce" valueTypeId="f9414adf-18da-44ef-bfbc-aee05ee4053b"/>
+    <recordKeyType typeId="b6adea90-adb7-4fb5-8c26-1eb3ee477e47" valueTypeId="237a6a04-05d2-4b2e-a352-0e3949558963"/>
+    <recordType typeId="afabfd39-ffdf-441c-b101-23e9cce2c13b" valueTypeId="f7ca37dc-9375-433b-8bfa-768ffc0c76ae"/>
+    <recordManagerType typeId="6862f2be-5ce9-491d-9bdd-2e8531547ba8" valueTypeId="9dcc8f28-b4e7-452d-aeb7-37bc888aca07"/>
+  </producedTypes>
+  <name>ПланП_ВремяВыполненияОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>План п время выполнения операций сек.</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ПланП_ВремяВыполненияОпераций.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1ac82b54-f9b6-4aaa-b052-4e5958ef0bcc">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="770c8da9-5e51-433b-b71e-9cd02adba148">
+    <name>Время</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время сек.</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2913fe25-c328-48f4-9280-4a4d485bd1ef">
+    <name>Операция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3733fa9b-bc2b-47da-86f0-2e01660ae36a">
+    <name>ЕдИзм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ед изм</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлассификаторЕдиницИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="2c15f3a4-7d7d-4027-890d-89c67aac8413">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="08a9be30-139a-4031-a0ef-72e02aeb84a2" extendedConfigurationObject="57ab753b-117a-4dae-b7f3-26b8d9081ed3">
+  <name>НСИ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension"/>
+  <parentSubsystem>Subsystem.КомплектацияИПроизводство</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9c79731f-7a68-4635-ad8e-b6c51a8f3cef" extendedConfigurationObject="9d8e09d4-753a-421c-a041-840d13ac7fdd">
+  <producedTypes>
+    <refType typeId="61acb488-03a2-4bc3-a433-fd321ffecd91" valueTypeId="cbb7fa5d-e99a-4831-814f-4be00ac1a9b0"/>
+    <listType typeId="dc77e4cb-f2cf-4861-9aab-9a82e66e55d7" valueTypeId="c4d1f25e-6998-42f0-b680-83e15452b749"/>
+    <managerType typeId="3067c25c-ec24-4979-af8e-a30d21fa922b" valueTypeId="35acce98-8582-436a-a296-9d4645e543ce"/>
+  </producedTypes>
+  <name>ТипыСчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="3727f285-83b3-47e6-8b05-1a187489fcfc" extendedConfigurationObject="3a3fbf65-51fa-4811-922b-b3ba02eca8bf">
+    <name>Расходы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="3ea6c1a4-6eab-4075-93d4-1aaf1d74e958" extendedConfigurationObject="70ee4c0b-2257-44f3-bfa4-d609a59160b3">
+    <name>ПрочиеРасходы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="89eec23b-2c33-4fea-8eb8-06b2af791d96" extendedConfigurationObject="1afcd952-5525-4193-b0d9-ca932ae1cdc9">
+    <name>НезавершенноеПроизводство</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2c3285ae-ae87-4607-8721-13111858007d" extendedConfigurationObject="be0a4445-f91d-4e16-b79d-3acfeee43b61">
+  <producedTypes>
+    <containerType typeId="9f0a8f6a-2235-4d87-8f20-9baa15de7b78" valueTypeId="2dd7ccfd-4e99-4052-b40b-31453ae93f19"/>
+  </producedTypes>
+  <name>GTIN</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:DefinedType>

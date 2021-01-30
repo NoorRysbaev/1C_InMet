@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2dbcaf25-87a3-44b6-aff7-fffb772a0ec2" extendedConfigurationObject="0b18a281-0eaf-4722-8e1f-b9cc0be808ef">
+  <producedTypes>
+    <objectType typeId="b0f9db6b-673c-40c3-8f54-b709da6e25f9" valueTypeId="db0e306a-eb94-42a5-b000-94a6d7a194b2"/>
+    <refType typeId="e68f0163-0a86-4b69-8d83-acca48a75e1b" valueTypeId="b081f915-5250-4cb3-88fd-65b63a82779b"/>
+    <selectionType typeId="0876889b-ff38-437f-90cf-164284c76c95" valueTypeId="c294966f-5876-4509-8080-eb7ded28f487"/>
+    <listType typeId="a9a7fc18-fb8a-4339-9d27-dfde30bf3728" valueTypeId="5d4138cf-3059-42cd-9516-620d00193140"/>
+    <managerType typeId="1dbe77cb-31b9-4f70-a9b7-45f81eb5b16c" valueTypeId="34172eea-9689-453c-9d74-fa192cc055a4"/>
+  </producedTypes>
+  <name>ХарактеристикиНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="0879256f-7231-4bc6-9f60-d10310c0d734" extendedConfigurationObject="e414380a-ae84-4e90-bcaa-e21a69c5b7ea">
+    <name>НаименованиеДляПечати</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="8ce4d926-53e9-46dd-8389-8205b52a2730" extendedConfigurationObject="3d111982-5bc6-41a1-a528-aab5a532e7c3">
+    <name>Артикул</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="85023b29-96d9-42ea-be75-9e111c4f258d" extendedConfigurationObject="2b39ffd7-46f8-4e5b-abaf-91f1abef9126">
+    <name>КиЗГИСМGTIN</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.GTIN</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="1dd0191e-0ded-46f7-be5e-ed96f4ffe089" extendedConfigurationObject="26a1ea64-8fab-453a-8636-660ed39319b1">
+    <name>ФайлКартинки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ХарактеристикиНоменклатурыПрисоединенныеФайлы</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="e399e8c4-7bb4-496e-bf76-d8cd615ac9cb" extendedConfigurationObject="67374712-4ff1-4ea0-852a-112d44714b71">
+    <name>Недействителен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

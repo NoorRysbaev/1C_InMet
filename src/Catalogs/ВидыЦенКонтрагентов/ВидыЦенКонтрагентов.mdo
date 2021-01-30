@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9e8762d1-aa99-48a3-8547-b1f02e59c9a4" extendedConfigurationObject="efef19a1-c5a8-4619-80ae-3f84e4bda60f">
+  <producedTypes>
+    <objectType typeId="9964120d-dcf5-495c-bb58-48c0a55c8e54" valueTypeId="131f19bd-5a54-402c-bc61-16d349142b8f"/>
+    <refType typeId="b0f3296a-7329-4fcc-a80c-74de9af76c0e" valueTypeId="83d64267-2d10-4bb2-95e0-878930c26ba8"/>
+    <selectionType typeId="1718d401-9645-4d27-88c6-ff2a5a36aa40" valueTypeId="5e6b83e0-e775-4c85-9216-2bb3c8e66d2d"/>
+    <listType typeId="170ad6c2-5a00-46ba-83d6-12ee1dfdecac" valueTypeId="ba025f44-a3a4-4acb-9f16-a44d32a12233"/>
+    <managerType typeId="30032680-3311-4a58-8275-d0ad44ed8f6c" valueTypeId="fc6d5e7b-cc02-4973-8b44-1f69869fb5c8"/>
+  </producedTypes>
+  <name>ВидыЦенКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

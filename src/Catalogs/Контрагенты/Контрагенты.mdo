@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f2d1cc8c-5235-446a-aa00-2b53001b33d4" extendedConfigurationObject="d31edcfb-c254-4df6-813c-45d97556c9a4">
+  <producedTypes>
+    <objectType typeId="1984e6a7-560b-46b4-8106-e287c31f3746" valueTypeId="b16f69e4-352f-4a85-a882-ea1f706a2137"/>
+    <refType typeId="5e8fa974-c4ce-4b60-8f3e-33ab194e9b31" valueTypeId="e88cd3f7-6a98-461d-89a8-eee908749b6f"/>
+    <selectionType typeId="d3b0da0f-7249-4411-acab-6913d165469e" valueTypeId="fc470ad2-154c-4e47-a6e0-c115198e491d"/>
+    <listType typeId="936352a0-9cc1-4510-9853-491c3f37536d" valueTypeId="1f602b54-b3f2-4b7f-9756-e82e59bfd8fd"/>
+    <managerType typeId="f57c9683-aa1a-48a4-8003-4ad55bf0cba0" valueTypeId="37d8859a-06fc-4890-ab00-466c7df935af"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="6b5aa9dc-2653-45aa-8a5d-9f4219be5cbb" extendedConfigurationObject="5a66e61d-1e1f-42eb-84c7-96c67491221a">
+    <name>НаименованиеПолное</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="853a929b-cac4-4db6-bf0a-89f180c8c26d" extendedConfigurationObject="d913c699-9b21-4f70-9e25-e7cd66899b35">
+    <name>КонтактноеЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.КонтактныеЛица</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

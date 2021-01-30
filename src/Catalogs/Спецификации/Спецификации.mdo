@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8eddeea9-46bf-4430-be15-10d1937c3f89" extendedConfigurationObject="ac74fcc0-ae0c-4627-b192-2c6f4b6f0bd7">
+  <producedTypes>
+    <objectType typeId="977a7fc9-acdb-4672-b6a0-5c867f8664da" valueTypeId="94eaf4bb-bee7-4948-82a8-bd91b22eed7b"/>
+    <refType typeId="9c03c140-75ad-4f2f-8219-689e60943e27" valueTypeId="713ffba1-511b-4854-9da0-36f463a6e2d9"/>
+    <selectionType typeId="7c04db25-dbc0-4b00-ad69-615382bfae8a" valueTypeId="4bc556df-1de1-4f98-9e94-115886e8e11a"/>
+    <listType typeId="05020994-f828-477b-bfc5-ded5b20e984d" valueTypeId="8fa9f26a-4bdd-4e13-85ea-6c7040085c26"/>
+    <managerType typeId="5b10a627-2efc-43bb-8649-290a3a96adb9" valueTypeId="3b82c4d5-dd28-4331-af81-4a7985eb26f3"/>
+  </producedTypes>
+  <name>Спецификации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="5e087281-1859-47fd-987d-a7de204f15d0" extendedConfigurationObject="89d0e977-55b9-45e5-b967-f1d6eceb80f1">
+    <name>ХарактеристикаПродукции</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ХарактеристикиНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="38afce9e-1b36-4976-9f24-3967a2310feb" extendedConfigurationObject="b37b1127-8afb-4656-a7b0-85cc48d6828a">
+    <name>Заказ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаказПокупателя</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="ae71f029-cdc0-4f75-9cf2-1d0f7d4cbbfa" extendedConfigurationObject="883f5552-05fc-4e64-bc58-4edf0dc7f6d9">
+    <name>Комментарий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="2fe6e792-473d-464d-bb97-113c574e1bf1" extendedConfigurationObject="d5f794db-f29b-4aa5-94d9-4d902688c8d6">
+    <name>ВидПроизводства</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ВидыПроизводства</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <tabularSections uuid="683a6e1c-f840-4513-bebf-a77099ef2e83" extendedConfigurationObject="01db34ad-b4b8-4f73-9b78-290f28298bf2">
+    <producedTypes>
+      <objectType typeId="23e4a28c-789a-46d3-aaed-7d64e0071ad2" valueTypeId="cf5dcd1e-7f19-4e8d-885f-68199d51e428"/>
+      <rowType typeId="c72df4a0-fd90-4683-9de8-9a1f1c2dcf24" valueTypeId="b799c115-7c6f-4efb-904d-5399eb7648fc"/>
+    </producedTypes>
+    <name>Состав</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="0598fe5c-4d3b-4386-9a1d-89d8c1fc72cc" extendedConfigurationObject="240f3b98-ae54-49d0-8340-c55807305c3e">
+      <name>ТипСтрокиСостава</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>EnumRef.ТипыСтрокСоставаСпецификации</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="2898f376-ff61-4222-ae89-1ce8a0254e71" extendedConfigurationObject="ace581e7-51df-462c-8240-c8f91daa0917">
+    <producedTypes>
+      <objectType typeId="e286396d-21b2-49e8-a713-e3c73d05efe7" valueTypeId="95a2627d-7ca9-4462-a76e-9dc5899f801d"/>
+      <rowType typeId="37a5f4d2-489a-4976-a1c8-7f66d7c42738" valueTypeId="10eb4c12-3832-4838-97d9-2a980e16e1e6"/>
+    </producedTypes>
+    <name>Операции</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </tabularSections>
+  <tabularSections uuid="13ecfd8d-94fe-4691-9758-06492d0f93d7" extendedConfigurationObject="77d39a12-1427-428c-99ea-f5a0bd8d9c1b">
+    <producedTypes>
+      <objectType typeId="4773c50c-0780-4ecd-b9de-32eaac348d75" valueTypeId="2a5b775d-f9fa-4cda-804c-2d59bf1145d3"/>
+      <rowType typeId="e8183622-32e0-4655-b3ba-2683b558791d" valueTypeId="18359351-8d86-4c56-8f9b-1ef986ce91e9"/>
+    </producedTypes>
+    <name>ДополнительныеРеквизиты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </tabularSections>
+</mdclass:Catalog>

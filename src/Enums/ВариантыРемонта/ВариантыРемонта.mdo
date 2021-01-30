@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="53428679-9944-45dc-8c92-c43d5a8fdef6" extendedConfigurationObject="419a7051-750e-43b3-8e9f-1c2bc332f8be">
+  <producedTypes>
+    <refType typeId="cf1eca9e-c86d-4814-adb8-297aa74f8cd4" valueTypeId="d2669d94-c40c-4714-891c-d177dcb795ad"/>
+    <listType typeId="7e1075b9-ef41-4446-a40c-46fb3a99cbbb" valueTypeId="bab09251-f317-419e-8cf7-76851401a283"/>
+    <managerType typeId="ddb57c5b-e76b-47ff-9aba-9b8e3472e427" valueTypeId="3fa1c1de-6fa5-479e-af32-24e73cd9afc5"/>
+  </producedTypes>
+  <name>ВариантыРемонта</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="ed497cce-d16a-460b-8e6a-0612eee5af1c" extendedConfigurationObject="30dffbff-37dc-40af-8b46-192c28c46d05">
+    <name>НашаМастерскаяМногоэтапныйРемонт</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

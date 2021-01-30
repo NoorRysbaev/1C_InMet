@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e55eb8a7-e61c-49f3-a640-54abb43d6010">
+  <producedTypes>
+    <refType typeId="fd65c73c-341f-4b58-bedb-d0aaafc8b5e9" valueTypeId="27946b6b-d9a4-4388-acb5-e698e0c6926d"/>
+    <listType typeId="7d51c772-68e1-4def-9a87-2808e1d7ae6b" valueTypeId="6f4239e6-acee-4f21-acee-1e99cd43da82"/>
+    <managerType typeId="508f6d95-e490-4526-af4e-0141dfa54ec9" valueTypeId="11f470e2-b056-43f4-b004-931f2973b358"/>
+  </producedTypes>
+  <name>мсНумераторыЭлементовДереваЗначений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нумераторы элементов дерева значений</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1baf8ee0-19ed-4b1f-a2b1-5fd0488bcf69">
+    <name>НумерацияЭлементов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нумерация элементов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5a912b5-d471-4f33-a6fe-ead19fd09bfb">
+    <name>НумерацияЭлементовСквозная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нумерация элементов (сквозная)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d7cf65d3-a62a-4112-934b-98e4ac9e4234">
+    <name>НумерацияГрупп</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нумерация групп</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8d22ae12-ab1d-440a-965c-a77ff92e28ec">
+    <name>НумерацияГруппИЭлементов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нумерация групп и элементов (иерархическая)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

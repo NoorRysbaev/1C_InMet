@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="650e6016-c012-4fa2-8788-79681eac11e2">
+  <producedTypes>
+    <refType typeId="1d1fe63d-60c8-41a4-bbc0-f431cba22d84" valueTypeId="9d3a4a23-1150-4a1f-adad-b3ab52661c9c"/>
+    <listType typeId="79f99cfe-714e-4653-b280-7081520ad4d8" valueTypeId="e82c64b1-0109-4814-bad6-adf3a75aa8c3"/>
+    <managerType typeId="e8e8484a-56bd-4105-ad82-ec48606c0099" valueTypeId="4e703791-f4d8-47f9-a3be-f0bf5a03f247"/>
+  </producedTypes>
+  <name>ТипСтрокиДляРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип строки для расчета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c2fe1162-0d1c-4f44-bfb0-c38ea2f13a16">
+    <name>Полуфабрикат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полуфабрикат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="17afeb6b-d25d-4b1b-a3af-2b2b8161e55c">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="76f84581-5a86-4780-a79d-cd75514b10ee">
+    <name>Изделие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изделие</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

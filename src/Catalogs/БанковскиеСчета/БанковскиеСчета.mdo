@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a7805eeb-c474-4509-a3b0-37065c4ea421" extendedConfigurationObject="46bd4919-eaaa-4d20-9448-1c15fffa60a4">
+  <producedTypes>
+    <objectType typeId="517be934-03c3-4230-894b-c6339a3e5fd9" valueTypeId="0da7c144-9f49-40a8-918a-4bc96e6b51b9"/>
+    <refType typeId="676bf671-dc8f-4462-b6da-c49b502a32b8" valueTypeId="2adf0aeb-6c9b-4adb-8ff3-bb90e4f5ec24"/>
+    <selectionType typeId="c91f3aad-7483-4c73-a75e-5f0f3870d942" valueTypeId="c151ea61-d117-4d39-8357-42648c5e7b4d"/>
+    <listType typeId="b3ec70a7-8427-4044-be74-52c6f01604ea" valueTypeId="0e24a6dd-8f8f-4d4d-b336-a42cebaa053f"/>
+    <managerType typeId="c7066c8c-aaec-4da4-8c9f-033334da4054" valueTypeId="af83bc90-2f69-4ffb-992b-61e3a7fd9a07"/>
+  </producedTypes>
+  <name>БанковскиеСчета</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

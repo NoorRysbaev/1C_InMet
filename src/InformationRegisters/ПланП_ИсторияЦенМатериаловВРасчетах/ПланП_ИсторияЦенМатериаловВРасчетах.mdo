@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba64f244-4d05-46b5-af63-a2c582c3942d">
+  <producedTypes>
+    <selectionType typeId="52f66d4e-7311-4fa9-a7a7-7ff23c5bc505" valueTypeId="ad3049af-aea3-46cf-bf93-a085fdff658e"/>
+    <listType typeId="51b0824e-025a-44f2-9cdf-ae2b583fcbcc" valueTypeId="d006d92e-1541-4a11-9a1a-3040a587ac08"/>
+    <managerType typeId="184e2361-16bd-43da-8b39-376d1779a6d3" valueTypeId="ff4b0409-b19e-4285-a148-8c32732554c1"/>
+    <recordSetType typeId="ed6db71e-19e9-43c8-bfe1-fc47a6c563dd" valueTypeId="fc3f845e-50d1-4806-8670-96fb062b63c5"/>
+    <recordKeyType typeId="7f7250c5-4fec-4f98-bb4c-91fa39911af0" valueTypeId="2d7d18db-6450-43a6-acd9-d381ac53a24f"/>
+    <recordType typeId="b00f6a43-97e1-4a59-8149-9d3e74a5ae38" valueTypeId="49aa722d-2e1f-4451-8bd8-e3b86155252f"/>
+    <recordManagerType typeId="9c525c5f-107e-41a7-a308-5dc70a6a8cca" valueTypeId="562c8c9c-bfd3-43f5-895c-fcf924a19867"/>
+  </producedTypes>
+  <name>ПланП_ИсторияЦенМатериаловВРасчетах</name>
+  <synonym>
+    <key>ru</key>
+    <value>История цен материалов в расчетах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="748fb552-8744-4ff8-8c5c-22b3db69a79d">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="12b892e9-e764-4562-840b-1b824e68eb0f">
+    <name>Расчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.План_РасчетИзделия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b5ea0d26-b46e-466f-af0f-765f92f23fb7">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

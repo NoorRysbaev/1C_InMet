@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8dbb6ef3-4087-4e02-a96c-a689cb40a5fc">
+  <producedTypes>
+    <objectType typeId="31a626eb-d04e-4aea-b335-4f1907b34f3c" valueTypeId="4333da32-4ae5-4229-b51f-a478d671ceda"/>
+    <refType typeId="e4b9ba31-69b5-4b92-991c-82d8cf1ce55b" valueTypeId="7a6abb9f-41fd-4a40-9722-0ec80bc79643"/>
+    <selectionType typeId="d394bab1-e957-478b-bf61-f5989d378d04" valueTypeId="0d4f8d83-1fd0-4ad5-9c49-c499d4937779"/>
+    <listType typeId="eafaf169-b2d0-4e80-aee9-eb0915c1253a" valueTypeId="f8b9f923-62c7-4950-92ca-24189ba2acf1"/>
+    <managerType typeId="58900442-a67b-4831-92dc-cb49f5e585ba" valueTypeId="d5ecd06e-9792-4ead-86d9-c10c8a8cce3d"/>
+  </producedTypes>
+  <name>ПланП_ДопОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные операции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПланП_ДопОперации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПланП_ДопОперации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПланП_ДопОперации.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="49ef3afa-6628-4b03-8f36-a8118f637163">
+    <name>Операция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9dc95a3f-b82f-409b-b03a-b37b2f73ebe4">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

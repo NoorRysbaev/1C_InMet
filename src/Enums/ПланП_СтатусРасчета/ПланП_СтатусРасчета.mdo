@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="409ba796-df60-4670-b586-85619e2361ad">
+  <producedTypes>
+    <refType typeId="b549293d-9dda-4999-bdd9-f55fcebc771f" valueTypeId="1d82a0c9-761a-4d32-bfd2-8794ea8eb165"/>
+    <listType typeId="f7b9901d-13ea-44d4-a8d2-03db623f978c" valueTypeId="1e9f41af-9589-4f60-850e-af868b8fc010"/>
+    <managerType typeId="f8ca6550-7bed-49d9-9f71-1cc6abae839d" valueTypeId="e5340867-5e4b-4ede-afbc-48785cc4015e"/>
+  </producedTypes>
+  <name>ПланП_СтатусРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>План п статус расчета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0bc5b3c3-b61c-4366-ae48-807d5e1e95d7">
+    <name>ВОбработке</name>
+    <synonym>
+      <key>ru</key>
+      <value>В обработке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d3935cea-83f5-4e1e-a170-7f637b823451">
+    <name>СогласованСКлиентом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласован с клиентом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a34bdf7d-1a90-461d-9348-ec062d9e7786">
+    <name>ОтправленоКоммерческоеПредложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено коммерческое предложение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

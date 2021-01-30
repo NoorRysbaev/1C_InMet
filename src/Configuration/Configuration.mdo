@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="23356541-dafd-4a60-9b98-3fcab2457802">
+  <name>ПланПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>План производства</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="300a5194-d94d-49c8-b24b-e0db83613985"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="a186105f-6893-4d26-b2c9-869ffc0056d0"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="50037fda-ee65-41c7-985e-f95141ba8c80"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="d7864840-a048-4884-b81e-351d9b559141"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="3837c6ab-3543-4edf-9796-a3a6c3c38930"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="a18ee9b1-8fa2-4c4f-86b9-1067482a4391"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="16a9576a-76f3-4f19-ba6b-a28cd41078b4"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>ПланП_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="00c4a601-aeb0-447d-b0c2-fed445169a12" extendedConfigurationObject="af1b61ff-d1b9-4053-ad85-8259b6626adc">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.КомплектацияИПроизводство</subsystems>
+  <styleItems>StyleItem.ТекстВторостепеннойНадписи</styleItems>
+  <styleItems>StyleItem.ФонУправляющегоПоля</styleItems>
+  <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
+  <styleItems>StyleItem.БудущиеПодпискиЦвет</styleItems>
+  <styleItems>StyleItem.ЦветШрифтаНаименованияПоля</styleItems>
+  <styleItems>StyleItem.ЦветТекстаПравойПанелиОтборов</styleItems>
+  <styleItems>StyleItem.ЦветНедоступногоТекстаТабличнойЧасти</styleItems>
+  <commonPictures>CommonPicture.Предупреждение</commonPictures>
+  <commonPictures>CommonPicture.Органайзер</commonPictures>
+  <commonPictures>CommonPicture.Набор</commonPictures>
+  <commonPictures>CommonPicture.ПодчиненныеЭлементы</commonPictures>
+  <commonPictures>CommonPicture.Наборы</commonPictures>
+  <commonPictures>CommonPicture.СостояниеОригиналаПервичногоДокументаОригиналНеПолучен</commonPictures>
+  <commonPictures>CommonPicture.Скрепка</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияСкрепка</commonPictures>
+  <commonPictures>CommonPicture.КОтгрузке</commonPictures>
+  <commonPictures>CommonPicture.КОплате</commonPictures>
+  <commonPictures>CommonPicture.СостояниеЗаказа</commonPictures>
+  <commonPictures>CommonPicture.ЕстьРасхождения</commonPictures>
+  <commonPictures>CommonPicture.ВидимостьРазрешена</commonPictures>
+  <commonPictures>CommonPicture.БольшеВозможностей</commonPictures>
+  <commonModules>CommonModule.ОбсужденияУНФ</commonModules>
+  <commonModules>CommonModule.ОбсужденияУНФВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбсужденияУНФГлобальный</commonModules>
+  <commonModules>CommonModule.ОбсужденияУНФИнтеграцияСМессенджерами</commonModules>
+  <commonModules>CommonModule.ОбсужденияУНФКлиент</commonModules>
+  <commonModules>CommonModule.ОбсужденияУНФКлиентПовтИсп</commonModules>
+  <definedTypes>DefinedType.GTIN</definedTypes>
+  <definedTypes>DefinedType.Вес</definedTypes>
+  <definedTypes>DefinedType.Объем</definedTypes>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
+  <catalogs>Catalog.КлючевыеРесурсы</catalogs>
+  <catalogs>Catalog.Спецификации</catalogs>
+  <catalogs>Catalog.ПартииНоменклатуры</catalogs>
+  <catalogs>Catalog.СтруктурныеЕдиницы</catalogs>
+  <catalogs>Catalog.ЭтапыПроизводства</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.СостоянияЗаказовНаПроизводство</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.КлассификаторЕдиницИзмерения</catalogs>
+  <catalogs>Catalog.ВидыПроизводства</catalogs>
+  <catalogs>Catalog.ТоварыМП</catalogs>
+  <catalogs>Catalog.КонтрагентыМП</catalogs>
+  <catalogs>Catalog.ВидыЦенКонтрагентов</catalogs>
+  <catalogs>Catalog.ВидыЦен</catalogs>
+  <catalogs>Catalog.ХарактеристикиНоменклатурыПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.КонтактныеЛица</catalogs>
+  <catalogs>Catalog.ПланП_ДопОперации</catalogs>
+  <catalogs>Catalog.КатегорииНоменклатуры</catalogs>
+  <catalogs>Catalog.БанковскиеСчета</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.ВидыСкидокНаценок</catalogs>
+  <catalogs>Catalog.ВидыЗаказНарядов</catalogs>
+  <catalogs>Catalog.ВидыЗаказовПокупателей</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.ИсточникиПривлеченияПокупателей</catalogs>
+  <catalogs>Catalog.СтавкиНДС</catalogs>
+  <catalogs>Catalog.СлужбыДоставки</catalogs>
+  <catalogs>Catalog.Кассы</catalogs>
+  <catalogs>Catalog.ПунктыВыдачиЗаказа</catalogs>
+  <catalogs>Catalog.ПричиныОтменыЗаказа</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.Проекты</catalogs>
+  <catalogs>Catalog.ЗоныТарифыДоставки</catalogs>
+  <catalogs>Catalog.КассыККМ</catalogs>
+  <documents>Document.ЗаказНаПроизводство</documents>
+  <documents>Document.ЗаказПокупателя</documents>
+  <documents>Document.ПланП_ПланПроизводстваНаПериод</documents>
+  <documents>Document.ТехнологическаяКарта</documents>
+  <documents>Document.План_РасчетИзделия</documents>
+  <documents>Document.ПриходТовараМП</documents>
+  <documents>Document.Событие</documents>
+  <enums>Enum.ТипыНоменклатуры</enums>
+  <enums>Enum.ВидыЗавершенияПовторовРасписания</enums>
+  <enums>Enum.ВидыПовторовРасписания</enums>
+  <enums>Enum.ВидыОперацийЗаказНаПроизводство</enums>
+  <enums>Enum.ТипыСтруктурныхЕдиниц</enums>
+  <enums>Enum.ВариантыЗавершенияЗаказа</enums>
+  <enums>Enum.ТипыСтрокСоставаСпецификации</enums>
+  <enums>Enum.мсНумераторыЭлементовДереваЗначений</enums>
+  <enums>Enum.ТипСтрокиДляРасчета</enums>
+  <enums>Enum.ПланП_СтатусРасчета</enums>
+  <enums>Enum.ВариантыРасчетаЦена</enums>
+  <enums>Enum.СпособыДоставки</enums>
+  <enums>Enum.ТипыДенежныхСредств</enums>
+  <enums>Enum.ВариантыЗаполненияРасшифровкиПлатежа</enums>
+  <enums>Enum.ТипыСчетов</enums>
+  <enums>Enum.ВариантыРемонта</enums>
+  <enums>Enum.СпособыЗачетаИРаспределенияПлатежей</enums>
+  <enums>Enum.ВидыЭД</enums>
+  <enums>Enum.СпособыПополненияЗапасов</enums>
+  <enums>Enum.ВидыОперацийЗаказПокупателя</enums>
+  <reports>Report.ПланП_ПланПроизводства</reports>
+  <dataProcessors>DataProcessor.ПланП_ВводСпецификаций</dataProcessors>
+  <informationRegisters>InformationRegister.ПланП_ПланЗагрузкиРесурсов</informationRegisters>
+  <informationRegisters>InformationRegister.ПланП_ДанныеДляРасчетаВесаМатериала</informationRegisters>
+  <informationRegisters>InformationRegister.ПланП_ВремяВыполненияОпераций</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныПоставщиковМП</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныНоменклатурыКонтрагентов</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.ПланП_ЦенаДопОпераций</informationRegisters>
+  <informationRegisters>InformationRegister.ФормулыРасчетаОпераций</informationRegisters>
+  <informationRegisters>InformationRegister.Обсуждения</informationRegisters>
+  <informationRegisters>InformationRegister.ПланП_ИсторияЦенМатериаловВРасчетах</informationRegisters>
+  <informationRegisters>InformationRegister.ПланП_ВремяВыполненияОперации</informationRegisters>
+</mdclass:Configuration>

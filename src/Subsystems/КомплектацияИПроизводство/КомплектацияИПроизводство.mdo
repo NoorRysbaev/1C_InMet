@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7e985a03-3617-4b44-b480-a08c29855b5d" extendedConfigurationObject="6d95facf-fabf-4531-b63d-b7ec2974e369">
+  <name>КомплектацияИПроизводство</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension"/>
+  <content>Document.ПланП_ПланПроизводстваНаПериод</content>
+  <content>Report.ПланП_ПланПроизводства</content>
+  <content>DataProcessor.ПланП_ВводСпецификаций</content>
+  <content>Document.ТехнологическаяКарта</content>
+  <content>Document.План_РасчетИзделия</content>
+  <content>InformationRegister.ПланП_ДанныеДляРасчетаВесаМатериала</content>
+  <content>InformationRegister.ПланП_ВремяВыполненияОпераций</content>
+  <content>InformationRegister.ПланП_ЦенаДопОпераций</content>
+  <content>InformationRegister.ФормулыРасчетаОпераций</content>
+  <content>Catalog.ПланП_ДопОперации</content>
+  <content>InformationRegister.ПланП_ИсторияЦенМатериаловВРасчетах</content>
+  <content>InformationRegister.ПланП_ВремяВыполненияОперации</content>
+  <subsystems>Производство</subsystems>
+  <subsystems>Наряды</subsystems>
+  <subsystems>Переработка</subsystems>
+  <subsystems>Планирование</subsystems>
+  <subsystems>НСИ</subsystems>
+  <subsystems>Аналитика</subsystems>
+</mdclass:Subsystem>

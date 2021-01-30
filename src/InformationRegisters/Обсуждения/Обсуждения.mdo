@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="588d22c2-2ee2-422b-9265-d30aff8c6ace" extendedConfigurationObject="9b2f40dd-dcd0-494d-8a1d-db8113345932">
+  <producedTypes>
+    <selectionType typeId="5e9b448d-a3fb-4e2d-ab3e-1068439fd91f" valueTypeId="0f904e1d-2d55-44f3-9766-92e0ccef08f4"/>
+    <listType typeId="0806f413-b7d2-4128-85e5-d4216300699e" valueTypeId="62623293-777a-4731-a370-f665725a772a"/>
+    <managerType typeId="adf45283-c53d-4cd5-a39d-57a19d32ed4e" valueTypeId="9d9d8b77-b54b-459e-acbf-9ae9e7c952e8"/>
+    <recordSetType typeId="821d5d61-875e-45aa-bb9c-9e5d180cf0da" valueTypeId="413056a9-583c-4f71-8f16-ef23edf9b2ec"/>
+    <recordKeyType typeId="eda2a55c-f190-4b2c-ba63-116b8b58be53" valueTypeId="9489dab8-fc26-41c2-a9ce-49b7ee43bad8"/>
+    <recordType typeId="4ca71950-306c-4402-bf52-a1b554b94572" valueTypeId="de6d0f07-9866-4ec0-8b65-9eabca16b246"/>
+    <recordManagerType typeId="1552450d-0497-4db8-beb4-a8eb580ee114" valueTypeId="20f4f739-c4ae-4162-9239-3f7b05640ea8"/>
+  </producedTypes>
+  <name>Обсуждения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <dimensions uuid="f2219220-60de-4e08-93fd-2266304fa6de" extendedConfigurationObject="7943e8cc-4ca5-4d25-b9ab-78e644d53456">
+    <name>Объект</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

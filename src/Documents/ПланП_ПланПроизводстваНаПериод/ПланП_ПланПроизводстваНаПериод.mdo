@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f83ac872-5664-4f89-8fca-7749bd263662">
+  <producedTypes>
+    <objectType typeId="34b298cf-e753-48a1-b556-43f4d92c4fa3" valueTypeId="2326cc99-6cc0-4667-95d9-7733584fe914"/>
+    <refType typeId="1cd084cc-ec6e-44dc-bc2f-2aa1509ef35a" valueTypeId="b6586ccf-6549-4b76-a7b4-9e844a920df6"/>
+    <selectionType typeId="e7a95af1-657b-4a13-8e9e-41d7dc5aae11" valueTypeId="ef1015d9-6e7c-46b1-a723-f292d24f89c5"/>
+    <listType typeId="40158cd9-1292-46da-83bf-a31bf06e7c9f" valueTypeId="11f29b7c-2e54-423f-9f55-4c547c050b7a"/>
+    <managerType typeId="ea7bb7fa-333b-4d51-89c2-9ed4f0d2904e" valueTypeId="9eb6a4c2-ea80-499a-adac-1e828786c446"/>
+  </producedTypes>
+  <name>ПланП_ПланПроизводстваНаПериод</name>
+  <synonym>
+    <key>ru</key>
+    <value>План производства на период</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПланП_ПланПроизводстваНаПериод.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПланП_ПланПроизводстваНаПериод.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ПланП_ПланПроизводстваНаПериод.Form.ФормаСписка</defaultListForm>
+  <registerRecords>InformationRegister.ПланП_ПланЗагрузкиРесурсов</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="ef60e7ac-7556-4098-a8e9-3ee69c56ae4a">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b12833c6-7d46-45db-ae18-f73fa0eb1ba8">
+    <name>ОкончаниеПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончание периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="1a8f3366-b71f-42a6-990e-999d50615028">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1f4d8547-b53e-4b3b-a3ae-3e5954b3262e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="2a644804-c420-47b8-abce-d41bc221af46">
+    <producedTypes>
+      <objectType typeId="cbae36cf-1ce2-447f-8ed7-77990d4122ce" valueTypeId="a6f87e6b-cff2-4218-a8c4-35757aebc998"/>
+      <rowType typeId="3cf81f99-6df3-4202-b7c7-6f36880283b2" valueTypeId="219017df-3f7a-4543-9a6a-5b6e964ba6c7"/>
+    </producedTypes>
+    <name>ПланПроизводстваПоРесурсам</name>
+    <synonym>
+      <key>ru</key>
+      <value>План производства по ресурсам</value>
+    </synonym>
+    <attributes uuid="20f3362a-3829-40cc-8f54-ecfb1a7e53bb">
+      <name>ЗаказНаПроизводство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заказ на производство</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ЗаказНаПроизводство</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6bb3cb4b-5474-4820-ab4c-fd5a5f184751">
+      <name>ЗаказПокупателя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заказ покупателя</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ЗаказПокупателя</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="00cebd1c-d3ae-45c4-b0f4-fda79f2e0059">
+      <name>Клиент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Клиент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c79216e4-576a-4ba2-8c89-1ad980c88c54">
+      <name>ЭтапПроизводства</name>
+      <synonym>
+        <key>ru</key>
+        <value>Этап производства</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ЭтапыПроизводства</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f3ae4ad7-a121-4ec6-bf00-b2096c22982f">
+      <name>РесурсПредприятия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ресурс предприятия</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КлючевыеРесурсы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5710cfdc-ea4a-4679-a3f0-b252b94edaee">
+      <name>Старт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Старт</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7bd1d0ae-1850-4b80-aa32-90f0b2f9f29a">
+      <name>Финиш</name>
+      <synonym>
+        <key>ru</key>
+        <value>Финиш</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="b05c3d99-5cec-4a95-9d9c-8897f1307671">
+    <name>Печать</name>
+  </templates>
+  <commands uuid="df6dc1d5-38f1-47c8-ac0b-fa57f7191d29">
+    <name>Печать</name>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ПланП_ПланПроизводстваНаПериод</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Document>

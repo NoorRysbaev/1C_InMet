@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9d540692-194d-49ee-84b5-546fdc4942b1" extendedConfigurationObject="4c7cc664-8fbf-455d-b19c-48148f4b6f30">
+  <producedTypes>
+    <refType typeId="7a026bad-eb97-483b-bd6f-5f60aa113947" valueTypeId="56e13c2e-4d26-41a0-8fa5-66539b29a4a4"/>
+    <listType typeId="73d05d3f-5b12-4d05-93c8-f3abf5b803f9" valueTypeId="d14b260b-902a-4543-aae7-7b3073c4b991"/>
+    <managerType typeId="47cf9493-d891-409e-8d5b-9fbfe4fe6309" valueTypeId="39664e71-3d14-42ff-9877-3f3bdc98bd27"/>
+  </producedTypes>
+  <name>ВидыПовторовРасписания</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fcaf4d2f-d943-4469-a1a2-8f49b451582c" extendedConfigurationObject="5ae16e4d-0888-4826-96cf-8cbc3b23e9ab">
+  <producedTypes>
+    <objectType typeId="691cf53d-6e4d-4e23-8259-b15b592517c3" valueTypeId="15a761b3-3aa7-45c0-b2b0-5add8102c99b"/>
+    <refType typeId="61c0f06c-b365-4156-953c-e6ce882e1a09" valueTypeId="a5413482-1d38-4910-8357-c473365efcbc"/>
+    <selectionType typeId="068e9c78-2536-4db0-8cef-a06bc958a976" valueTypeId="9a5b397c-d31b-49c4-8d91-a0f696cdc772"/>
+    <listType typeId="476520f1-c0f7-4f1c-8dfd-33e5266fdd61" valueTypeId="32f3c71c-bb0e-46c1-846d-ef1e7ca97f91"/>
+    <managerType typeId="4f5f33de-7d03-4f77-9a39-7940ef6d25fd" valueTypeId="1e80481e-06e6-4dba-9cd2-d93c5ad9c19b"/>
+  </producedTypes>
+  <name>ВидыЦен</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+  </extension>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="df848246-effb-453b-af44-5ce4312f2ed8">
+      <name>Оптовая</name>
+      <description>Оптовая цена</description>
+      <code xsi:type="core:StringValue">
+        <value>00-000001</value>
+      </code>
+    </items>
+    <items id="f68335aa-017c-4ed2-b05d-5ab9d2a3e04a">
+      <name>Учетная</name>
+      <description>Учетная цена</description>
+      <code xsi:type="core:StringValue">
+        <value>00-000002</value>
+      </code>
+    </items>
+  </predefined>
+</mdclass:Catalog>

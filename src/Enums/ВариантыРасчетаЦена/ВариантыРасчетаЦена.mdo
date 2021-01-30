@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a366b103-236b-4935-974e-b5048b0e6b2f">
+  <producedTypes>
+    <refType typeId="429058f9-c6db-4df2-9068-aeb310bc5f7a" valueTypeId="6b392f92-af7a-456d-9468-1d32e6b2e3cb"/>
+    <listType typeId="52240a3c-747a-42e4-a537-51dcbfbbe24c" valueTypeId="3ce95723-20d4-4727-bee1-810b6fc425d1"/>
+    <managerType typeId="c36ea128-3f16-4d8f-8d99-8477a5aeb99d" valueTypeId="04aa6fbb-840d-4eba-8086-eca6837e0e37"/>
+  </producedTypes>
+  <name>ВариантыРасчетаЦена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты расчета цена</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b643b234-c8c9-4d9e-81b8-33bc462ac07b">
+    <name>РасчетЦеныПоФормуле</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет цены по формуле</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d4d839ac-6e6e-4214-8537-fa2485f751af">
+    <name>РасчетЦеныПоПрайсу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет цены по прайсу</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

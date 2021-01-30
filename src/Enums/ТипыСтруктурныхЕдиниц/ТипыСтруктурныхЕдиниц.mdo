@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="54dbaef7-f4fb-426e-aecc-f3693971800b" extendedConfigurationObject="b4fd140b-4f87-4d31-b394-ba3eeae7026c">
+  <producedTypes>
+    <refType typeId="00aecd3f-fddc-4294-8092-766a1202f578" valueTypeId="a38e4dbf-13f3-42a1-8e91-3f7258f1c7b1"/>
+    <listType typeId="83f95837-6987-47e9-a197-fb9dc3ebf14a" valueTypeId="ec9151d3-153d-46fa-85cd-00e9e0924a09"/>
+    <managerType typeId="64052b14-d3f5-4301-9da3-e9b92f049c7e" valueTypeId="3be2e5ba-479c-4c44-85ef-6b197f9a5e6a"/>
+  </producedTypes>
+  <name>ТипыСтруктурныхЕдиниц</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="fd9a7f68-5876-4160-950a-446ea1b0e7e8" extendedConfigurationObject="86426cf8-824c-479b-96ad-7dc1a16c73ba">
+    <name>Склад</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="4073c2e7-278b-45f9-8ff9-fd8ff57d4c75" extendedConfigurationObject="1b04bee5-2b2a-4bfe-b2f0-acf30a72c111">
+    <name>Подразделение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="592792b6-3b15-4d60-bfc9-36fdc254282d">
+  <producedTypes>
+    <selectionType typeId="cf4c424e-4413-4d74-9979-ee90b9aa5c48" valueTypeId="1c6e1871-861e-4bcf-9dc8-12988e1d485c"/>
+    <listType typeId="37588339-9854-434c-b8c2-d97512bb4150" valueTypeId="221d1b5e-c860-4dc2-b653-7c50b900fdd9"/>
+    <managerType typeId="a9ff3247-daf3-45a8-b392-9011b281dc3c" valueTypeId="ea5d602f-0e7a-43eb-9957-e968015c3152"/>
+    <recordSetType typeId="48877fc5-5c8d-4980-bb81-38e04dbbf563" valueTypeId="ab05f92c-384e-4ee1-851b-6e4fdfa0f6fd"/>
+    <recordKeyType typeId="75470ae9-5d48-4b3e-b477-f9dc981f73c5" valueTypeId="333a347d-e6a1-442a-a8ef-3e9f37034318"/>
+    <recordType typeId="79ee7a0f-c307-4104-82c1-f969406fe536" valueTypeId="c669c26b-844d-42e4-a810-6bb1f3d04d83"/>
+    <recordManagerType typeId="13d90194-ac07-4036-a563-b621a02d081f" valueTypeId="e61b706a-6797-4b3a-9a8b-e5f84f8062b2"/>
+  </producedTypes>
+  <name>ПланП_ВремяВыполненияОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Время выполнения операции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ПланП_ВремяВыполненияОперации.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1c11afa7-f008-4ec8-9929-812b36f93cd6">
+    <name>ВремяСек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время сек</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="82cd4329-59e6-4a62-ba47-a0c3ad9cb392">
+    <name>Операция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операция</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>CatalogRef.Номенклатура</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0bcd0124-0396-451c-bf9e-b24ccb8593cf">
+    <name>ЕдИзм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ед изм</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a3eaecef-1ee7-4ecd-81ab-2787526dadaa">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

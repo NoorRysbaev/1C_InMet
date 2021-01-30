@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="01b7a5e3-58df-47f8-a4d2-4de17795188b" extendedConfigurationObject="5a77ed34-389a-45e7-85f4-1a2a7b95fd80">
+  <producedTypes>
+    <objectType typeId="526e3449-cb16-41e8-9927-3a728cb5c8be" valueTypeId="23ceef93-2761-4bb3-be17-e4cce9dfd9ec"/>
+    <refType typeId="21abb3f5-8d4f-434b-8169-f9b6b4acb5d5" valueTypeId="adff0b97-1aa3-4774-bc99-676ed5ad9a8a"/>
+    <selectionType typeId="0c6e1f8c-482c-44c3-836b-9f15b767afbc" valueTypeId="f1ed45a2-d46f-41c6-b36f-2c8324f9634e"/>
+    <listType typeId="e7a19ec2-575e-45ed-b3b6-d0e109c9e1fa" valueTypeId="d1e26894-78c9-4280-82c3-83a894bfc36d"/>
+    <managerType typeId="6b5d57ca-99fc-4ebb-87c8-e90e87201691" valueTypeId="27066910-fc29-48f4-a24d-509d5888d153"/>
+  </producedTypes>
+  <name>ТоварыМП</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

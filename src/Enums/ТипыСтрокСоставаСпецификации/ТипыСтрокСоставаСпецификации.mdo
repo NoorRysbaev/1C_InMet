@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="10c2ef4e-680d-4373-86c9-fb72ff7b7d77" extendedConfigurationObject="e8d4930b-54cb-4c47-a5fb-e6ad5bb4b916">
+  <producedTypes>
+    <refType typeId="1db2e12d-c232-4479-abe1-8a4de49e0954" valueTypeId="3e888a3a-c16c-46ba-bd74-625f5f84575e"/>
+    <listType typeId="794151d5-79b6-4170-9c74-1afeccacf439" valueTypeId="c757619c-dff2-45e1-aabb-8be605d26c9a"/>
+    <managerType typeId="42c3fbbf-8081-4749-97b0-2fe15a43eb61" valueTypeId="c75a22cd-8dc2-4845-888a-1cc687b7b210"/>
+  </producedTypes>
+  <name>ТипыСтрокСоставаСпецификации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="7a54c6a8-fcbf-4d76-be77-fb5b344221be" extendedConfigurationObject="7e934be8-3515-40ac-9d9e-0c7e4e672863">
+    <name>Материал</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="e4988cc3-a203-4c6d-b41d-5db2d18cba7b" extendedConfigurationObject="109f57a5-a0b9-4518-82b2-8a745ae616cc">
+    <name>Сборка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="8c36038b-4ce7-414f-84fb-9f1e9cac8885" extendedConfigurationObject="a4b0a88d-6eb2-46bb-9a0a-91962a60b373">
+    <name>Узел</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="16f25381-93ac-43cb-b3a5-1717bc6553e2" extendedConfigurationObject="cf4b48c2-7946-4dc0-a966-ebf1483a4db6">
+    <name>Расход</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

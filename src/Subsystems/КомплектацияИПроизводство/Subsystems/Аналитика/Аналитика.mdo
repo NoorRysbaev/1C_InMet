@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bbc77e6d-f8ba-4082-aed9-f2696d8dcd93" extendedConfigurationObject="994eeb91-d59b-4ff6-8fe3-df6bc41675dc">
+  <name>Аналитика</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension"/>
+  <content>Document.ПланП_ПланПроизводстваНаПериод</content>
+  <parentSubsystem>Subsystem.КомплектацияИПроизводство</parentSubsystem>
+</mdclass:Subsystem>

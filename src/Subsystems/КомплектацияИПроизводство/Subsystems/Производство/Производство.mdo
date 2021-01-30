@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e6d58643-af58-4af4-9558-b46d6b3690ce" extendedConfigurationObject="110f88d9-229e-42eb-9198-58b642a69429">
+  <name>Производство</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension"/>
+  <content>Document.ПланП_ПланПроизводстваНаПериод</content>
+  <content>Report.ПланП_ПланПроизводства</content>
+  <content>DataProcessor.ПланП_ВводСпецификаций</content>
+  <content>Document.ТехнологическаяКарта</content>
+  <content>Document.План_РасчетИзделия</content>
+  <content>InformationRegister.ПланП_ДанныеДляРасчетаВесаМатериала</content>
+  <content>InformationRegister.ПланП_ВремяВыполненияОпераций</content>
+  <content>InformationRegister.ПланП_ЦенаДопОпераций</content>
+  <content>InformationRegister.ФормулыРасчетаОпераций</content>
+  <content>Catalog.ПланП_ДопОперации</content>
+  <content>InformationRegister.ПланП_ИсторияЦенМатериаловВРасчетах</content>
+  <content>InformationRegister.ПланП_ВремяВыполненияОперации</content>
+  <parentSubsystem>Subsystem.КомплектацияИПроизводство</parentSubsystem>
+</mdclass:Subsystem>

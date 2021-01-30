@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8b91ea18-1a61-471f-8cfd-d717f18c49da" extendedConfigurationObject="39bd8de4-c07e-4588-a778-7739a617c4f8">
+  <producedTypes>
+    <objectType typeId="36ed741b-920c-4cfb-8030-8269443e6359" valueTypeId="4450bb50-0fd3-4160-b854-f5f68ea678e2"/>
+    <refType typeId="e86e58fb-f3ab-46af-9c96-670273310dd4" valueTypeId="151cb2a8-3f0b-4cb7-8399-a15bc1b7bf19"/>
+    <selectionType typeId="9dff809c-ebe8-4e1e-af05-6cef09e04198" valueTypeId="620544f8-9a42-4b00-bcf5-351a426a8535"/>
+    <listType typeId="31b49bb9-c1ee-4db0-9081-7fc989054bd5" valueTypeId="1461b257-a3d5-4932-a16c-8007de663ca3"/>
+    <managerType typeId="6ff33cf5-816b-40d0-ac7c-376125759e07" valueTypeId="f9da248e-8c38-46d5-9320-5b2c3249ae2b"/>
+  </producedTypes>
+  <name>ВидыПроизводства</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="e4110fd1-2f68-4972-8d48-e3f3e3e32e86" extendedConfigurationObject="d4e1fe78-e961-4725-a59e-60e501eae4f5">
+    <name>Комментарий</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <tabularSections uuid="5ce6e0cf-398f-47f8-af08-13f8ae2c7d8f" extendedConfigurationObject="e5a32c1a-cf07-429a-976b-98b19b6fcec9">
+    <producedTypes>
+      <objectType typeId="0b717782-6b04-4482-a86c-be2df2469e12" valueTypeId="f6d6f5eb-9b0f-48d2-947f-951b0ea0f357"/>
+      <rowType typeId="cef0cd60-5aca-4727-9e5d-cbccb678715e" valueTypeId="061e98c9-d6d8-47b9-9634-328ecdfd29eb"/>
+    </producedTypes>
+    <name>Этапы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </tabularSections>
+  <forms uuid="7c8b45b6-9db0-4ab2-9d52-eeb606b54ffb" extendedConfigurationObject="0960548e-8a2c-4a2d-a549-7da1c7d77e78">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="dd09ccb4-6e5f-41de-a285-e2591e5248ac" extendedConfigurationObject="92667d44-e542-4580-ad0d-1f15d29a5713">
+    <name>ФормаВыбора</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

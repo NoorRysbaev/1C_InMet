@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e993da77-25c4-4868-8e48-85504e2fc6d8" extendedConfigurationObject="f4d4046e-b4bc-41b5-bc65-7e6f59d0bac8">
+  <name>Переработка</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:SubsystemExtension"/>
+  <parentSubsystem>Subsystem.КомплектацияИПроизводство</parentSubsystem>
+</mdclass:Subsystem>

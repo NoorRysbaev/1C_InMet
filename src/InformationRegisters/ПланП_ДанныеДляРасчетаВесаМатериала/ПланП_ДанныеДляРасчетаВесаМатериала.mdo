@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="744ff235-9ae9-49ef-97c4-f5d65956da5a">
+  <producedTypes>
+    <selectionType typeId="22db7a62-0993-409c-9b14-701349917d65" valueTypeId="99274bc1-9dee-4a43-a2ee-b796f77749fb"/>
+    <listType typeId="586c8f81-ddda-4a6a-afbd-522d03be115b" valueTypeId="f8eb90a2-5e79-437d-becf-f1231d7b02b4"/>
+    <managerType typeId="806ec934-0c81-4f7b-88c9-fca86b505c3b" valueTypeId="fd976639-fbd7-47df-ba3f-1d6961071c8e"/>
+    <recordSetType typeId="9583aa63-c1e1-49bd-a093-6635528599ea" valueTypeId="32baf8ac-ed09-4d21-8961-7f0e1b6771e2"/>
+    <recordKeyType typeId="1dd13fc7-8a2d-4f46-a301-922ea1dfb6ca" valueTypeId="cbd6343a-ebb1-4b09-8793-3a1fc8d13cc4"/>
+    <recordType typeId="477fce38-c1ce-4894-ab22-ca551e499157" valueTypeId="a870a6ea-b38e-4338-8d90-2e85fd1fd8f9"/>
+    <recordManagerType typeId="903ee246-796f-4c13-bd76-d8b38bb51d69" valueTypeId="3ca091cf-6dc5-47de-b08d-ca24cdc3de81"/>
+  </producedTypes>
+  <name>ПланП_ДанныеДляРасчетаВесаМатериала</name>
+  <synonym>
+    <key>ru</key>
+    <value>План п данные для расчета веса материала</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ПланП_ДанныеДляРасчетаВесаМатериала.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="52b63bf3-5a37-431f-b054-c6e468fc1f9e">
+    <name>Толщина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Толщина мм.</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="23e44783-4eab-40fe-b04a-3cf990ca46c7">
+    <name>ПлотностьМатериала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плотность материала кг/м.куб.</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d8bee252-ab69-434e-afe9-3b2994aaf8a5">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="62f0ddf6-d334-44ce-b602-0d1fe6173b40">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

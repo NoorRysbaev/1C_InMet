@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1d07b012-752b-41a0-a030-036650776671" extendedConfigurationObject="6062f61d-345c-4054-8126-e94570310d76">
+  <producedTypes>
+    <selectionType typeId="27b88b2a-175e-4b81-9f88-52dd459182b9" valueTypeId="65d6321f-9d98-494b-a1ad-6b61e53974c6"/>
+    <listType typeId="11ba56cd-54a7-4443-8d92-898fbccaa0ed" valueTypeId="7e38b08d-89d9-47b9-8609-81fec6221dc5"/>
+    <managerType typeId="017dae32-ac78-4537-9740-c1e6045512fd" valueTypeId="679169dd-dd33-4399-b9cf-7cba336109c6"/>
+    <recordSetType typeId="c8d3195f-542b-4b05-b6a9-283131ef7df8" valueTypeId="a4d0ab4c-804e-4509-b9e4-4109e1ab98c8"/>
+    <recordKeyType typeId="ea4a9e4b-b04d-416a-bce2-0d62ac9de107" valueTypeId="9a310f3d-8eab-4ae9-bba4-867c103e8f4c"/>
+    <recordType typeId="b8a5c30f-65a9-43e7-a9a9-db45bdc66e22" valueTypeId="1654a574-5f26-4bdb-891c-d956b562a309"/>
+    <recordManagerType typeId="22a89724-cb64-4c41-b64a-a455f7ddeb13" valueTypeId="b5bdc412-de36-43a9-be87-a416e04d92b6"/>
+  </producedTypes>
+  <name>ЦеныПоставщиковМП</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <resources uuid="87195cf7-bdcd-46f0-b660-fefa25d018dc" extendedConfigurationObject="2647093b-a24e-4a3f-af7d-8d4963c7fc7b">
+    <name>Цена</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <attributes uuid="2dc97a31-9a62-4bd2-8dd4-0d6b4bd4906d" extendedConfigurationObject="ed266275-16c4-4ed7-8c56-0a55a74248bb">
+    <name>ДокументПоставки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ПриходТовараМП</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <dimensions uuid="101c0910-649a-4214-bfe4-7fe8207890ed" extendedConfigurationObject="8e29a74f-b81a-4207-8ad2-468f5832dc25">
+    <name>Товар</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ТоварыМП</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="f89474f9-dc92-4f63-98b1-5dccc6a2b7b1" extendedConfigurationObject="c6720b03-1596-4528-9c09-24f007e50eb2">
+    <name>Поставщик</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.КонтрагентыМП</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>
